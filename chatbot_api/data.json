@@ -1,0 +1,89 @@
+{
+    "greeting": "Hi {name}, how may I help you?",
+    "options": [
+        {
+            "id": 1,
+            "title": "Current Order Status",
+            "description": "View status of your current orders",
+            "subOptions": []
+        },
+        {
+            "id": 2,
+            "title": "Slot Availability",
+            "description": "Check available time slots for delivery or service",
+            "subOptions": [
+                {
+                    "id": "2.1",
+                    "title": "Today",
+                    "content": "Available slots for today"
+                },
+                {
+                    "id": "2.2",
+                    "title": "Tomorrow",
+                    "content": "Available slots for tomorrow"
+                },
+                {
+                    "id": "2.3",
+                    "title": "This Week",
+                    "content": "Available slots for the rest of the week"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Previous Order Details",
+            "description": "Access your order history and past deliveries",
+            "subOptions": []
+        },
+        {
+            "id": 4,
+            "title": "Check Subscription Status",
+            "description": "View details of your current subscription plan",
+            "subOptions": [
+                {
+                    "id": "4.1",
+                    "title": "Current Plan",
+                    "content": "Details of your current subscription plan"
+                },
+                {
+                    "id": "4.2",
+                    "title": "Available Plans",
+                    "content": "We offer Basic ($49/month), Standard ($79/month), and Premium ($119/month) subscription plans for laundry services."
+                },
+                {
+                    "id": "4.3",
+                    "title": "Manage Subscription",
+                    "content": "To upgrade, downgrade, or cancel your subscription, please visit your account settings or contact customer support."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Contact Us",
+            "description": "Get in touch with our customer support team",
+            "subOptions": [
+                {
+                    "id": "5.1",
+                    "title": "Customer Support",
+                    "content": "Contact our support team at support@dhobig.com or call 1-800-123-4567."
+                },
+                {
+                    "id": "5.2",
+                    "title": "Business Inquiries",
+                    "content": "For business or partnership inquiries, please reach out to business@dhobig.com."
+                },
+                {
+                    "id": "5.3",
+                    "title": "Feedback",
+                    "content": "We value your feedback! Share your experience or suggestions at feedback@dhobig.com."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Search",
+            "description": "Search for specific information or services",
+            "subOptions": []
+        }
+    ]
+}

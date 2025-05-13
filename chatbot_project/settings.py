@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*-woebftke*hjo$6o#o$m92gng*#k8d2lafveh-^f@6u=q_jz%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://chatbot-frontend-chi-dusky.vercel.app/"]
+ALLOWED_HOSTS = ["chatbot-frontend-chi-dusky.vercel.app"]
 
 
 # Application definition
